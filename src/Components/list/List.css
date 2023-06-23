@@ -1,0 +1,34 @@
+.list{
+    background-color: whitesmoke;
+    color: #616161;
+
+}
+.list .tableCell{
+    background-color: whitesmoke;
+    color: #616161;
+
+}
+.list .cellWrapper .tableCell{
+    display: flex;
+    align-items: center;
+}
+.list .cellWrapper .tableCell  .image{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+    border: 1px solid #210876;
+}
+.list .tableCell .rowStatus{
+    padding: 5px;
+    border-radius: 5px;
+}
+.list .tableCell .rowStatus.approved{
+    color: green;
+    background-color: rgba(0,128,0,0.15);
+}
+.list .tableCell .rowStatus.pending{
+    background-color: rgb(84, 82, 56);
+    color: yellow;
+}
