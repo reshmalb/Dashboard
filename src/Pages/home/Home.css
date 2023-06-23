@@ -1,0 +1,21 @@
+.home{
+    display: flex;
+   
+}
+.home  .home_container{
+    flex: 6;
+    background-color: whitesmoke;
+    color: #616161;
+    
+}
+.home  .home_container .home_widget{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+}
+.home .home_container .charts{
+    padding:5px 20px;
+    display: flex;
+
+}

@@ -1,0 +1,46 @@
+.widget{
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    padding: 10px;
+   box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+      border-radius: 10px;
+      height: 100px;
+}
+.widget .widget_left,.widget_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.widget .widget_left .widget_title{
+    font-weight: bold;
+    font-size: 14px;
+    color: #616161;
+}
+.widget .widget_left .widget_counter{
+    font-size: 28px;
+    font-weight: 300;
+}
+.widget .widget_left .widget_link{
+    width: max-content;
+    font-size: 12px;
+    border-bottom: 1px solid;
+}
+.widget .widget_right .widget_percentage{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.widget_icon{
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    font-size: 14px;
+}
+.widget_percentage .positive{
+    color:green;
+}
+
+.widget_percentage .negative{
+    color:red;
+}
