@@ -11,6 +11,8 @@ import Customers from "./Pages/customers/Customers";
 import New from "./Pages/new/New"
 import Login from  "./Pages/login/Login"
 import Register from "./Pages/register/Register"
+import { userInputs,productInputs } from './formData';
+import "./style/Dark.css"
 
 
 
@@ -30,11 +32,11 @@ const router = createBrowserRouter([
   },
     {
     path: "/products/:productId/new",
-    element: <New/>,
+    element: <New inputs={productInputs} title="Add New Products"/>,
   },
   {
     path: "/customers/:customerId/new",
-    element: <New/>,
+    element: <New inputs={userInputs} title="Add New User"/>,
   },
     {
     path: "/customers/:customerId",
@@ -61,7 +63,7 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div className="app">
+    <div className="app dark">
         <RouterProvider router={router} />
 
     </div>

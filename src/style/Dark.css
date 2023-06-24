@@ -1,0 +1,9 @@
+.app.dark{
+    background-color: #111;
+    color:rgb(156,156,156);
+}
+.app.dark .navbar{
+    background-color: #111;
+    color:rgb(156,156,156);
+border-color: #333;
+}
