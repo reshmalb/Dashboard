@@ -1,0 +1,11 @@
+.newPage{
+    display: flex;
+    width:100%;
+    background-color: whitesmoke;
+    color:#616161;
+
+}
+.newPage .newContainer{
+    flex:6;
+
+}

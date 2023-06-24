@@ -1,0 +1,82 @@
+.single{
+    display: flex;
+    width:100%;
+    background-color: whitesmoke;
+    color:#616161;
+
+}
+.single .singleContainer{
+    flex:6;
+
+}
+.singleContainer .top{
+    display: flex;
+    padding: 20px;
+    gap:20px;
+
+}
+.top .left{
+    flex:1;
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+}
+.top .right{
+    flex:2;
+    padding: 10px;
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+    margin: 20px;
+}
+.top .left .item{
+    display: flex;
+    gap:20px;
+}
+.top .left .itemImg{
+    width:120px;
+    height:120px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.top .left .editButton{
+    position: absolute;
+    top:15px;
+    right: 20px;
+    padding: 7px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color:#7451f8;
+    background-color: #7551f818;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+/* .details{
+
+} */
+.top .left .details .itemTitle{
+    margin-bottom: 10px;
+    color:#616161;
+
+}
+.details .itemDetails{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.details .itemDetails .itemKey{
+    font-weight: bold;
+    color: #616161;
+    margin-right: 5px;
+
+}
+.details .itemDetails .itemValue{
+    font-weight: 300;
+
+}
+.left .title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:grey;
+}

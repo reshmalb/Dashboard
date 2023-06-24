@@ -105,13 +105,11 @@ const List = () => {
               {row.id}
             </TableCell>
             <div className='cellWrapper'>
-            <TableCell className='tableCell'>
-            
+            <TableCell className='tableCell'>        
                 
                     <img  className='image' src={row.img} alt=""/>
                     {row.product} 
-
-                    </TableCell>
+                                        </TableCell>
                    </div>
 
             <TableCell className='tableCell'>{row.customer}</TableCell>
