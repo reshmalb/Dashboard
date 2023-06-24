@@ -87,7 +87,6 @@ const List = () => {
         <TableRow>
           <TableCell className='tableCell' > Tracking ID</TableCell>
           <TableCell className='tableCell' >Product</TableCell>
-
           <TableCell className='tableCell' >Customer</TableCell>
           <TableCell className='tableCell' >Date</TableCell>
           <TableCell className='tableCell' >Amount</TableCell>
@@ -102,15 +101,15 @@ const List = () => {
             key={row.id}
           >
             <TableCell className='tableCell' >
-              {row.id}
+              {row.id} 
             </TableCell>
             <div className='cellWrapper'>
-            <TableCell className='tableCell'>        
-                
+                   <TableCell className='tableCell'>                
                     <img  className='image' src={row.img} alt=""/>
                     {row.product} 
-                                        </TableCell>
-                   </div>
+              </TableCell>
+              </div>
+                   
 
             <TableCell className='tableCell'>{row.customer}</TableCell>
             <TableCell className='tableCell'>{row.date}</TableCell>

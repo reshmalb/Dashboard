@@ -76,7 +76,7 @@ export const rows = [
   ];
   const Producttable = () => {
     return (
-      <div className="productable">
+      <div className="producttable">
         <TableContainer component={Paper} className="tablecontainer">
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
