@@ -8,7 +8,8 @@ import Chart from '../../Components/chart/Chart'
 import List from '../../Components/list/List'
 const Home = () => {
   return (
-    <div className='home'>
+    <>
+        <div className='home'>
           <Sidebar/>
         <div className='home_container'>
           <NavBar/>
@@ -20,7 +21,7 @@ const Home = () => {
           </div>
           <div className='charts'>
             <Featured/>
-            <Chart/>
+            <Chart title="   Last 6 months (Revenue)" aspect={2/1}/>
           </div>
           <div className='list_container'>
             <div className='list_title'>Latest Transations</div>
@@ -28,6 +29,9 @@ const Home = () => {
           </div>
         </div>
    </div>
+    
+    </>
+   
   )
 }
 

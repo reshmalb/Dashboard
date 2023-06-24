@@ -1,0 +1,34 @@
+.products{
+    display: flex;
+    width:100%;
+    background-color: whitesmoke;
+    color: #616161;
+}
+.products .product_container{
+    flex:6;
+
+}
+.products .product_container .productList{
+    box-shadow:2px 4px 10px 1px rgba(201,201,201,0.47);
+    padding: 20px;
+    margin: 20px;
+
+}
+.productList .datatable_title{
+    width: 100%;
+    font-size: 24px;
+    color: #aeaeaf;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productList .datatable_title  .link{
+    color: green;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+    cursor: pointer;
+}

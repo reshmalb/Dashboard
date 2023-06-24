@@ -52,23 +52,26 @@ const data = [
   },
 ];
 
-const Chart = () => {
+const Chart = ({title,aspect}) => {
+
+
   return (
+
     <div className='chart'>
       <div className='chart_title'>
-        Revenue for 6 months
+          {title}
 
       </div>
- <ResponsiveContainer width="100%" height="100%" aspect={2/1}>
- <BarChart width={730} height={250} data={data}>
-  <CartesianGrid strokeDasharray="3 3" />
-  <XAxis dataKey="name" />
-  <YAxis />
-  <Tooltip />
-  <Legend />
-  <Bar dataKey="pv" fill="#8884d8" />
-  <Bar dataKey="uv" fill="#82ca9d" />
-</BarChart>
+        <ResponsiveContainer width="100%" height="100%" aspect={aspect}>
+            <BarChart width={730} height={250} data={data}>
+            <CartesianGrid strokeDasharray="3 3" />
+            <XAxis dataKey="name" />
+           <YAxis />
+           <Tooltip />
+        <Legend />
+        <Bar dataKey="pv" fill="#8884d8" />
+            <Bar dataKey="uv" fill="#82ca9d" />
+        </BarChart>
       </ResponsiveContainer>
       
     </div>
