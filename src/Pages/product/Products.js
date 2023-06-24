@@ -14,13 +14,11 @@ const Products = () => {
       <div className='productList'>
         <div className='datatable_title'>
         <span>   Add New Product</span>
-        <span className='link'>   Add New</span>
-        <Producttable/>
-
+        <span className='link'>   Add New
+        </span>
         </div>
-
+        <Producttable/>
       </div>
-
      </div>
     </div>
   )
